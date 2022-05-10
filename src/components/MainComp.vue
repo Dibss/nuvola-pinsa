@@ -295,11 +295,8 @@ methods : {
   }
 }
 
-@media screen and (min-width: 1300px) {
-  
-}
 
-@media screen and (min-width: 1800px){
+@media screen and (min-width: 1200px){
 
   main{
     .pinsa1{

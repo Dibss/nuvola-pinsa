@@ -52,7 +52,7 @@ li{list-style-type: none;}
 .mb-4{margin-bottom: 2em;}
 .my-2{margin-bottom: 1em; margin-top: 1em;}
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
 
   @for $i from 1 through 12{
     .col-xl-#{$i}{width: calc(100% / 12) * $i; flex-basis: calc(100% / 12) * $i;}
