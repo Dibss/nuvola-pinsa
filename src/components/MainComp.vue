@@ -26,22 +26,22 @@
     <main>
       <div class="d-xl-flex flex-wrap">
         <div class="w-70 my-2">
-          <div class="text-center w-90">
+          <div class="text-center w-90" id="bakery">
             <img class="mt-4" src="../assets/img/bakery.png">
-            <h2 class="fs-20 my-2 text-similblack text-center">Una Nuvola di Bontà</h2>
+            <h2 class="fs-20 my-2 text-similblack text-center">A Cloud Of Tastiness</h2>
           </div>
           <div class="text-justify text-lightgray">
-            <p class="fs-13">La Pinsa Nuvola nasce da un’idea di Corrado Di Marco che, da tre generazioni, attraverso l’azienda di famiglia continua a fare ricerca su farine e metodi di lievitazione. Con la base pronta Nuvola, Di Marco intende portare nelle case la sua più fortunata invenzione del 2001, la Pinsa Romana (fino ad oggi disponibile solo nelle Pinserie certificate), realizzando così un prodotto leggero e digeribile, pronto da condire con gli ingredienti preferiti, mettendo d’accordo tutti… anche chi preferisce una dieta vegetariana.</p>
+            <p class="fs-13">Nuvola comes from Corrado Di Marco’s intuition and his continuous research on flour and leavening methods. With this ready-to-top base, you will taste an incredibly light and digestible product that everyone will love, even those who lead a vegan lifestyle.</p>
           </div>
         </div>
         <div class="mt-4 d-xl-flex">
-          <div id="bakery" class="col-xl-6 d-xl-flex ai-center jc-center">
+          <div  class="col-xl-6 d-xl-flex ai-center jc-center">
             <div class="mb-4">
               <div>
                 <div class="w-xl-80">
                   <div class="w-80 mt-4">
-                    <h2 class="fs-20 my-2 text-similblack">Nuvola ambient<br>La fragranza a portata di mano, ora anche fuori frigo</h2>
-                    <p class="text-justify text-lightgray fs-12">Tutte le caratteristiche di leggerezza, digeribilità, sapore antico, versatilità e facilità di preparazione, sono ora disponibili anche “fuori frigo”. Nuvola infatti, nella sua versione ambient, viene commercializzata al di fuori della catena del freddo della Classica e della Multicereali, senza però rinunciare alle famose caratteristiche della Pinsa Romana originale. Una bella comodità, sia in fase di acquisto sia per la conservazione a casa.Anche con ambient sono sufficienti 5 minuti di forno.</p>
+                    <h2 class="fs-20 my-2 text-similblack">Nuvola classic <br>The original roman pinsa</h2>
+                    <p class="text-justify text-lightgray fs-13">A secret mix of flours and long rising time to guarantee digestibility, lightness, and crispness: this is Roman Pinsa, and thanks to Nuvola you can easily prepare it at home. Nuvola is hand-stretched and packed in a modified atmosphere to maintain all the characteristics of a freshly baked pinsa.</p>
                   </div>
                 </div>
               </div>
@@ -56,16 +56,16 @@
         </div>
         <div class="w-80 col-xl-6 d-xl-flex ai-center jc-center">
           <div class="w-xl-80">
-            <h2 class="fs-20 my-2 text-similblack">Nuvola classica<br>La pinsa romana originale</h2>
-            <p class="text-justify text-lightgray fs-13">Un mix di farine segreto e una lunga lievitazione per garantire digeribilità, leggerezza e croccantezza: tutto questo è la Pinsa Romana che grazie a NUVOLA può essere preparata in casa. Nuvola è la base pronta di Pinsa, stesa a mano e confezionata in atmosfera modificata per mantenere la freschezza e le caratteristiche di una Pinsa appena sfornata.</p>
+            <h2 class="fs-20 my-2 text-similblack">Nuvola multigrain <br>Rustic flavor and lightness</h2>
+            <p class="text-justify text-lightgray fs-12">We added whole rye flour, sunflower seeds, pumpkin seeds, flax seeds, oat flour, barley malt and flour to our classic Roman Pinsa, for a more digestible, tasteful, and healthy dough. You will only need to bake it for five minutes with your favourite toppings.</p>
           </div>
         </div>
       </div>
       <div class="d-xl-flex">
         <div class="w-80 col-xl-6 d-xl-flex ai-center jc-center">
           <div class="w-xl-80">
-            <h2 class="fs-20 my-2 text-similblack">Nuvola multicereali<br>Gusto rustico e leggerezza</h2>
-            <p class="text-justify text-lightgray fs-12">Al famoso mix della classica Pinsa Romana sono stati aggiunti farina integrale di segale, semi di girasole, semi di zucca, semi di lino, farina di avena, malto d’orzo e farina d’ orzo, per un impasto integrale ancora più saporito, digeribile e salutare. Bastano 5 minuti di forno con i condimenti preferiti.</p>
+            <h2 class="fs-20 my-2 text-similblack">Nuvola ambient <br>Fragrance at hand, now at room temperature</h2>
+            <p class="text-justify text-lightgray fs-12">All the lightness, freshness, taste, and versatility of classic Nuvola, now “out of the fridge”. Nuvola Ambient can be kept at room temperature, coming in handy while doing shopping as well as for at home conservation, without giving up to the famous characteristics of the original Roman Pinsa.</p>
           </div>
         </div>
         <div class="pinsa3 mt-4 col-xl-6">
@@ -76,16 +76,16 @@
         </div>
         <div class="w-80 col-xl-6 d-xl-flex ai-center jc-center">
           <div class="w-xl-80">
-            <h2 class="fs-20 my-2 text-similblack">Croccante fuori e morbida dentro</h2>
-            <p class="text-justify text-lightgray fs-13">L’impasto della Pinsa Nuvola è preparato con Farina di frumento 0, acqua, pasta acida di frumento, farina di riso, farina di soia, olio extra vergine di oliva, sale, lievito, senza alcun conservante aggiunto. Viene fatto lievitare per 72 ore per ottenere in cottura una base croccante fuori e morbida dentro, con un caratteristico profumo di pane antico e con la metà delle calorie (kcal) rispetto ad una normale base per pizza.Incredibilmente soffice e con la caratteristica forma ovale lavorata a mano, la Pinsa Nuvola è perfetta da portare in tavola in ogni occasione, da soli, in famiglia o con gli amici.</p>
+            <h2 class="fs-20 my-2 text-similblack">Crunchy on the outside, fluffy on the inside</h2>
+            <p class="text-justify text-lightgray fs-13">Nuvola dough is made with wheat flour, water, sourdough, soy flour, extravirgin olive oil, salt, and yeast, with no added preservatives; it is then left to rise for 72 hours to get a base that is crunchy on the outside and fluffy on the inside, with a characteristic bread-like fragrance and half the calories of a normal pizza base. Incredibly soft and with its unique oval shape, Nuvola Pinsa is perfect for every occasion.</p>
           </div>
         </div>
       </div>
       <div class="d-xl-flex">
         <div class="w-80 mb-4 col-xl-6 d-xl-flex ai-center jc-center">
           <div class="w-xl-80">
-            <h2 class="fs-20 my-2 text-similblack">Condisci Pinsa Nuvola</h2>
-            <p class="text-justify text-lightgray fs-12">Preparare la Pinsa Nuvola è molto semplice, sono sufficienti 5 minuti in forno a 250°C. I tempi di cottura sono indicativi, possono variare a seconda del tipo di forno e del grado di cottura desiderato. Se la desideri più crispy lasciala in forno un minuto in più! In base agli ingredienti scelti il condimento può essere aggiunto prima o dopo il passaggio in forno. La Pinsa Nuvola è disponibile in confezioni singole o da due. Si conserva in frigorifero tra 0°C e 4°C e va aperta qualche minuto prima dell’uso.</p>
+            <h2 class="fs-20 my-2 text-similblack">Customise your nuvola pinsa!</h2>
+            <p class="text-justify text-lightgray fs-12">Preparing your Nuvola Pinsa has never been easier, you just need to put it in the oven for five minutes at maximum temperature. Cooking time can vary depending on the oven type and desired crispness: for a crispier crust, just bake it for one more minute! Based on the ingredients of your choice, toppings can be added before or after cooking the base. Nuvola is available in single or double packs and must be kept in the fridge between 0°C and 4°C. It should only be opened few minutes before use.</p>
           </div>
         </div>
         <div class="pinsa4 col-xl-6">
@@ -137,7 +137,7 @@ data(){
         url : '#'
       },
       {
-        name : 'a cloud of goodness',
+        name : 'a cloud of tastiness',
         url : '#bakery'
       },
       {
@@ -251,22 +251,22 @@ methods : {
       margin: 0 auto;
     }
     .pinsa1{
-      background-image: url('https://www.nuvolapinsa.com/wp-content/uploads/2022/04/cover-nuvola-ambient.jpg');
-      background-position: left;
+      background-image: url('../assets/img/pinsa_rossa.jpeg');
+      background-position: center;
       background-repeat: no-repeat;
       background-size: auto;
       height: 80vh;
     }
     .pinsa2{
-      background-image: url('https://www.nuvolapinsa.com/wp-content/uploads/2021/10/nuvola-classica.jpg');
-      background-position: left;
+      background-image: url('../assets/img/pinsa_verde.jpeg');
+      background-position: center;
       background-repeat: no-repeat;
       background-size: auto;
       height: 80vh;
     }
     .pinsa3{
-      background-image: url('https://www.nuvolapinsa.com/wp-content/uploads/2021/10/nuvola-multicereali-02.jpg');
-      background-position: left;
+      background-image: url('../assets/img/pinsa_gialla.jpeg');
+      background-position: center;
       background-repeat: no-repeat;
       background-size: auto;
       height: 80vh;
@@ -376,7 +376,7 @@ methods : {
         }
       }
       .slider{
-        background-image: url('../assets/img/banner-eng.jpeg');
+        background-image: url('../assets/img/banner-eng-giust.jpeg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
