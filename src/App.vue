@@ -23,7 +23,6 @@ li{list-style-type: none;}
   .col-#{$i}{width: calc(100% / 12) * $i; flex-basis: calc(100% / 12) * $i;}
 }
 
-
 @for $i from 1 through 12{
   .offright-#{$i}{margin-right: calc(100% / 12) * $i;}
 }
@@ -59,11 +58,12 @@ li{list-style-type: none;}
 .my-4{margin-bottom: 2em; margin-top: 2em;}
 
 @media screen and (min-width: 1200px) {
-
+  
   @for $i from 1 through 12{
     .col-xl-#{$i}{width: calc(100% / 12) * $i; flex-basis: calc(100% / 12) * $i;}
   }
 
+  .d-xl-unset{display: unset;}
   .d-xl-flex{display: flex;}
 
   .w-xl-80{width: 80%; margin: 0 auto;}

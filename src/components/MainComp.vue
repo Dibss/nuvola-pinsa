@@ -45,12 +45,12 @@
               </div>
             </div>
           </div>
-          <div class="pinsa1 col-xl-6">
+          <div class="pinsa1 col-xl-6 d-none d-xl-unset">
           </div>
         </div>
       </div>
       <div class="d-xl-flex">
-        <div class="pinsa2 col-xl-6" id="romana">
+        <div class="pinsa2 col-xl-6 d-none d-xl-unset" id="romana">
         </div>
         <div class="w-80 col-xl-6 d-xl-flex ai-center jc-center">
           <div class="w-xl-80">
@@ -66,11 +66,11 @@
             <p class="text-justify text-lightgray fs-12">All the lightness, freshness, taste, and versatility of classic Nuvola, now “out of the fridge”. Nuvola Ambient can be kept at room temperature, coming in handy while doing shopping as well as for at home conservation, without giving up to the famous characteristics of the original Roman Pinsa.</p>
           </div>
         </div>
-        <div class="pinsa3 mt-4 col-xl-6">
+        <div class="pinsa3 mt-4 col-xl-6 d-none d-xl-unset">
         </div>
       </div>
       <div class="d-xl-flex">
-        <div class="impasto col-xl-6">
+        <div class="impasto col-xl-6 d-none d-xl-unset">
         </div>
         <div class="w-80 col-xl-6 d-xl-flex ai-center jc-center">
           <div class="w-xl-80">
@@ -207,16 +207,8 @@ methods : {
       overflow: hidden;
       position: relative;
       background-color: transparent;
-      #logo{
-        max-width: 100%;
-        height: auto;
-        width: 10%;
-      }
-      .fa-bars{
-        cursor: pointer;
-        font-size: 1.3rem;
-        color: #000;
-      }
+      #logo{max-width: 100%; height: auto; width: 10%; }
+      .fa-bars{cursor: pointer; font-size: 1.3rem; color: #000;}
       #nav-links{
         display: none;
         a{
@@ -229,11 +221,7 @@ methods : {
           font-size: 0.9rem;
           font-weight: 700;
         }
-        hr{
-          color: lightgray;
-          width: 70%;
-          margin: 0 auto;
-        }
+        hr{color: lightgray; width: 70%; margin: 0 auto; }
       }
       a.icon{
         display: block;
@@ -244,10 +232,9 @@ methods : {
     }
   }
   main{
-    #bakery{
-      width: 80%;
-      margin: 0 auto;
-    }
+    text-align: center;
+    h2{font-size: 1.8rem;}
+    #bakery{width: 80%; margin: 0 auto;}
     .pinsa1{
       background-image: url('../assets/img/pinsa_rossa.jpeg');
       background-position: center;
@@ -317,24 +304,24 @@ methods : {
             text-decoration: none;
           }
         }
+    }
+    .acquista{
+      background-image: url('../assets/img/banner-acquisto.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 55vh;
+      width: 100%;
+      h2{
+        color: #fff;
+        margin-bottom: 0.7em;
+        font-size: 2.2rem;
       }
-      .acquista{
-        background-image: url('../assets/img/banner-acquisto.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 55vh;
-        width: 100%;
-        h2{
-          color: #fff;
-          margin-bottom: 0.7em;
-          font-size: 2.2rem;
-        }
-        span{
-          color: #fff;
-          font-size: 1.2rem;
-        }
+      span{
+        color: #fff;
+        font-size: 1.2rem;
       }
+    }
   }
 }
 
@@ -350,22 +337,16 @@ methods : {
         align-items: center;
         #div-logo{
           margin-left: 1em;
-          #logo{
-            width: 100%;
-          }
+          #logo{width: 100%;}
         }
-        .fa-bars{
-          display: none;
-        }
+        .fa-bars{display: none;}
         #nav-links{
           display: unset;
           ul{
             display: flex;
             margin-top: 0;
             padding-left: 2em;
-            li{
-              padding: 0 1em;
-            }
+            li{padding: 0 1em;}
           }
           a{
             padding: 0em 0em;
@@ -373,9 +354,7 @@ methods : {
             margin: 0 auto;
             font-size: 1rem;
           }
-          hr{
-            display: none;
-          }
+          hr{display: none;}
         }
       }
       .slider{
@@ -388,32 +367,18 @@ methods : {
       }
     }
     main{
-      .pinsa1{
-        background-size: cover;
-      }
-      .pinsa2{
-        background-size: cover;
-      }
-      .pinsa3{
-        background-size: cover;
-      }
-      .impasto{
-        background-size: cover;
-      }
-      .pinsa4{
-        background-size: cover;
-      }
+      text-align: unset;
+      h2{font-size: unset;}
+      .pinsa1{background-size: cover;}
+      .pinsa2{background-size: cover;}
+      .pinsa3{background-size: cover;}
+      .impasto{background-size: cover;}
+      .pinsa4{background-size: cover;}
       .gallery{
-        img{
-          max-width: 100%;
-          height: auto;
-          padding: 0.5em;
-        }
+        img{max-width: 100%; height: auto; padding: 0.5em;}
       }
       .video{
-        .btn-youtube{
-          width: 22%;
-        }
+        .btn-youtube{width: 22%;}
       }
     }
   }
@@ -421,28 +386,12 @@ methods : {
 
 
 @media screen and (min-width: 1200px){
-
   main{
-    .pinsa1{
-      width: 95%;
-      margin: 0 auto;
-    }
-    .pinsa2{
-      width: 95%;
-      margin: 0 auto;
-    }
-    .pinsa3{
-      width: 95%;
-      margin: 0 auto;
-    }
-    .impasto{
-      width: 95%;
-      margin: 0 auto;
-    }
-    .pinsa4{
-      width: 95%;
-      margin: 0 auto;
-    }
+    .pinsa1{width: 95%; margin: 0 auto;}
+    .pinsa2{width: 95%; margin: 0 auto;}
+    .pinsa3{width: 95%; margin: 0 auto;}
+    .impasto{width: 95%; margin: 0 auto;}
+    .pinsa4{width: 95%; margin: 0 auto;}
   }
 }
 
