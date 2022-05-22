@@ -368,7 +368,7 @@ methods : {
     }
     main{
       text-align: unset;
-      h2{font-size: unset;}
+      h2{font-size: 2rem;}
       .pinsa1{background-size: cover;}
       .pinsa2{background-size: cover;}
       .pinsa3{background-size: cover;}
