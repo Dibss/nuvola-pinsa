@@ -37,12 +37,10 @@
         <div class="mt-4 d-xl-flex">
           <div  class="col-xl-6 d-xl-flex ai-center jc-center">
             <div class="mb-4">
-              <div>
-                <div class="w-xl-80">
-                  <div class="w-80 mt-4">
-                    <h2 class="fs-20 my-2 text-similblack">Nuvola classic <br>The original roman pinsa</h2>
-                    <p class="text-justify text-lightgray fs-13">A secret mix of flours and long rising time to guarantee digestibility, lightness, and crispness: this is Roman Pinsa, and thanks to Nuvola you can easily prepare it at home. Nuvola is hand-stretched and packed in a modified atmosphere to maintain all the characteristics of a freshly baked pinsa.</p>
-                  </div>
+              <div class="w-xl-80">
+                <div class="w-80 mt-4">
+                  <h2 class="fs-20 my-2 text-similblack">Nuvola classic <br>The original roman pinsa</h2>
+                  <p class="text-justify text-lightgray fs-13">A secret mix of flours and long rising time to guarantee digestibility, lightness, and crispness: this is Roman Pinsa, and thanks to Nuvola you can easily prepare it at home. Nuvola is hand-stretched and packed in a modified atmosphere to maintain all the characteristics of a freshly baked pinsa.</p>
                 </div>
               </div>
             </div>
@@ -84,7 +82,7 @@
       <div class="d-xl-flex">
         <div class="w-80 mb-4 col-xl-6 d-xl-flex ai-center jc-center">
           <div class="w-xl-80">
-            <h2 class="fs-20 my-2 text-similblack">Customise your nuvola pinsa!</h2>
+            <h2 class="fs-20 my-2 text-similblack">Customise your Nuvola Pinsa!</h2>
             <p class="text-justify text-lightgray fs-12">Preparing your Nuvola Pinsa has never been easier, you just need to put it in the oven for five minutes at maximum temperature. Cooking time can vary depending on the oven type and desired crispness: for a crispier crust, just bake it for one more minute! Based on the ingredients of your choice, toppings can be added before or after cooking the base. Nuvola is available in single or double packs and must be kept in the fridge between 0°C and 4°C. It should only be opened few minutes before use.</p>
           </div>
         </div>
@@ -97,7 +95,7 @@
         <h2 class="fs-20 text-similblack text-center">Gallery</h2>
       </div>
       <div class="d-flex flex-wrap">
-        <div v-for="elm in gallery" :key="elm.id" class="gallery col-12 col-xl-4">
+        <div v-for="elm in gallery" :key="elm.id" class="gallery col-4 col-xl-4">
           <img :src="elm.img">
         </div>
       </div>
@@ -284,6 +282,11 @@ methods : {
       background-repeat: no-repeat;
       background-size: auto;
       height: 80vh;
+    }
+    .gallery{
+      max-width: 100%;
+      height: calc(100vw / 3);
+      display: flex;
     }
     .video{
         background-image: url('../assets/img/banner-video.jpg');
