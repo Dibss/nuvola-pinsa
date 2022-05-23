@@ -362,7 +362,7 @@ methods : {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 110vh;
+        height: 120vh;
         width: 100%;
       }
     }
@@ -385,13 +385,25 @@ methods : {
 }
 
 
-@media screen and (min-width: 1200px){
-  main{
-    .pinsa1{width: 95%; margin: 0 auto;}
-    .pinsa2{width: 95%; margin: 0 auto;}
-    .pinsa3{width: 95%; margin: 0 auto;}
-    .impasto{width: 95%; margin: 0 auto;}
-    .pinsa4{width: 95%; margin: 0 auto;}
+@media screen and (min-width: 1300px){
+  .container{
+    header{
+      .slider{
+        background-image: url('../assets/img/banner-eng-giust.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110vh;
+        width: 100%;
+      }
+    }
+    main{
+      .pinsa1{width: 95%; margin: 0 auto;}
+      .pinsa2{width: 95%; margin: 0 auto;}
+      .pinsa3{width: 95%; margin: 0 auto;}
+      .impasto{width: 95%; margin: 0 auto;}
+      .pinsa4{width: 95%; margin: 0 auto;}
+    }
   }
 }
 
