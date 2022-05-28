@@ -405,6 +405,7 @@ methods : {
       .pinsa4{width: 95%; margin: 0 auto;}
     }
   }
+  
 }
 
 </style>
